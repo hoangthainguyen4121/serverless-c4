@@ -1,0 +1,476 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20230103.141418.19184.0.001.json",
+    "dumpEventTime": "2023-01-03T14:14:18Z",
+    "dumpEventTimeStamp": "1672730058516",
+    "processId": 19184,
+    "cwd": "C:\\Users\\lenovo\\Documents\\serverless-c4\\backend",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\lenovo\\AppData\\Roaming\\npm/node_modules/serverless/bin/serverless.js",
+      "deploy"
+    ],
+    "nodejsVersion": "v12.15.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.15.0",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.15.0/node-v12.15.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.15.0/node-v12.15.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.15.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19044",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 4600H with Radeon Graphics         ",
+        "speed": 2994,
+        "user": 166593,
+        "nice": 0,
+        "sys": 122906,
+        "idle": 538703,
+        "irq": 12156
+      },
+      {
+        "model": "AMD Ryzen 5 4600H with Radeon Graphics         ",
+        "speed": 2994,
+        "user": 117171,
+        "nice": 0,
+        "sys": 81843,
+        "idle": 628953,
+        "irq": 2484
+      },
+      {
+        "model": "AMD Ryzen 5 4600H with Radeon Graphics         ",
+        "speed": 2994,
+        "user": 259093,
+        "nice": 0,
+        "sys": 125062,
+        "idle": 443812,
+        "irq": 2484
+      },
+      {
+        "model": "AMD Ryzen 5 4600H with Radeon Graphics         ",
+        "speed": 2994,
+        "user": 134109,
+        "nice": 0,
+        "sys": 71640,
+        "idle": 622218,
+        "irq": 1687
+      },
+      {
+        "model": "AMD Ryzen 5 4600H with Radeon Graphics         ",
+        "speed": 2994,
+        "user": 179187,
+        "nice": 0,
+        "sys": 99531,
+        "idle": 549250,
+        "irq": 2937
+      },
+      {
+        "model": "AMD Ryzen 5 4600H with Radeon Graphics         ",
+        "speed": 2994,
+        "user": 129828,
+        "nice": 0,
+        "sys": 73718,
+        "idle": 624406,
+        "irq": 2046
+      },
+      {
+        "model": "AMD Ryzen 5 4600H with Radeon Graphics         ",
+        "speed": 2994,
+        "user": 191156,
+        "nice": 0,
+        "sys": 108359,
+        "idle": 528437,
+        "irq": 3156
+      },
+      {
+        "model": "AMD Ryzen 5 4600H with Radeon Graphics         ",
+        "speed": 2994,
+        "user": 135390,
+        "nice": 0,
+        "sys": 72296,
+        "idle": 620265,
+        "irq": 1609
+      },
+      {
+        "model": "AMD Ryzen 5 4600H with Radeon Graphics         ",
+        "speed": 2994,
+        "user": 240593,
+        "nice": 0,
+        "sys": 112093,
+        "idle": 475265,
+        "irq": 937
+      },
+      {
+        "model": "AMD Ryzen 5 4600H with Radeon Graphics         ",
+        "speed": 2994,
+        "user": 107390,
+        "nice": 0,
+        "sys": 61609,
+        "idle": 658953,
+        "irq": 937
+      },
+      {
+        "model": "AMD Ryzen 5 4600H with Radeon Graphics         ",
+        "speed": 2994,
+        "user": 176484,
+        "nice": 0,
+        "sys": 88734,
+        "idle": 562734,
+        "irq": 968
+      },
+      {
+        "model": "AMD Ryzen 5 4600H with Radeon Graphics         ",
+        "speed": 2994,
+        "user": 116562,
+        "nice": 0,
+        "sys": 64312,
+        "idle": 647078,
+        "irq": 500
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "90:0f:0c:31:6b:e7",
+        "address": "2402:800:62c1:a091:7e31:1f80:ace2:5063",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "90:0f:0c:31:6b:e7",
+        "address": "2402:800:62c1:a091:80ae:eae0:3f6d:ccb5",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "90:0f:0c:31:6b:e7",
+        "address": "fe80::e13e:9b5b:cd7d:81af",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "90:0f:0c:31:6b:e7",
+        "address": "192.168.1.8",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "LAPTOP-2AJC8EIK"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff68cdf1759",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff68cdf5b7c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff68cdf4b38",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff68cee446b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff68d6e8d9e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff68d6d0de1",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff68d59e6ac",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff68d5a9a50",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff68d5a6584",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff68d59be13",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff68d59a5e4",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x00007ff68d5bb8b5",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff68d327b89",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+4057"
+    },
+    {
+      "pc": "0x00007ff68db14d3d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x000000486cb09cf7",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2173886464,
+    "totalCommittedMemory": 2173886464,
+    "usedMemory": 2137763664,
+    "availableMemory": 55408720,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759808,
+        "used": 6741368,
+        "available": 10018440
+      },
+      "old_space": {
+        "memorySize": 1902227456,
+        "committedMemory": 1902227456,
+        "capacity": 1900020104,
+        "used": 1895548040,
+        "available": 4472064
+      },
+      "code_space": {
+        "memorySize": 2523136,
+        "committedMemory": 2523136,
+        "capacity": 2085664,
+        "used": 2085664,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2887680,
+        "committedMemory": 2887680,
+        "capacity": 2297600,
+        "used": 2297600,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 231809024,
+        "committedMemory": 231809024,
+        "capacity": 230508296,
+        "used": 230508296,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 622592,
+        "committedMemory": 622592,
+        "capacity": 550400,
+        "used": 550400,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16759808,
+        "used": 0,
+        "available": 16759808
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 105.562,
+    "kernelCpuSeconds": 114.953,
+    "cpuConsumptionPercent": 193.434,
+    "maxRss": 1986879488,
+    "pageFaults": {
+      "IORequired": 2476699,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 14809,
+      "writes": 8
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\lenovo\\AppData\\Roaming",
+    "AWS_BUCKET": "mybucket515974451957",
+    "AWS_PROFILE": "default",
+    "AWS_REGION": "us-east-1",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "133170181884438144",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\LOCAL\\crashpad_16460_LCVMUAEMAYBDDSVC",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LAPTOP-2AJC8EIK",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\lenovo",
+    "JWT_SECRET": "testing",
+    "LOCALAPPDATA": "C:\\Users\\lenovo\\AppData\\Local",
+    "LOGONSERVER": "\\\\LAPTOP-2AJC8EIK",
+    "NUMBER_OF_PROCESSORS": "12",
+    "NVM_HOME": "C:\\Users\\lenovo\\AppData\\Roaming\\nvm",
+    "NVM_SYMLINK": "C:\\Program Files\\nodejs",
+    "OneDrive": "C:\\Users\\lenovo\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files\\PowerShell\\7;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files\\Azure Data Studio\\bin;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X64\\;C:\\Program Files (x86)\\Pulse Secure\\VC142.CRT\\X86\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\PuTTY\\;C:\\Program Files\\Amazon\\AWSCLI\\bin\\;C:\\Program Files\\php-8.0.11;C:\\Program Files\\TortoiseGit\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Program Files (x86)\\dotnet\\;C:\\Program Files (x86)\\UnxUtils\\usr\\local\\wbin;C:\\Program Files\\Amazon\\AWSCLIV2\\;C:\\Program Files\\PowerShell\\7\\;C:\\Users\\lenovo\\AppData\\Roaming\\Python\\Python311\\Scripts\\;C:\\Program Files\\PostgreSQL\\15\\bin\\;C:\\Users\\lenovo\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\lenovo\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\lenovo\\.dotnet\\tools;C:\\Users\\lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\lenovo\\AppData\\Local\\GitHubDesktop\\bin;C:\\terraform;C:\\ffmpeg\\bin;C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\WinRAR;C:\\Users\\lenovo\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "POSTGRES_DB": "udacity",
+    "POSTGRES_HOST": "database-1.ci9fsc8ymunc.us-east-1.rds.amazonaws.com",
+    "POSTGRES_PASSWORD": "hOANG4121",
+    "POSTGRES_USERNAME": "nguyenht10",
+    "POWERSHELL_DISTRIBUTION_CHANNEL": "MSI:Windows 10 Home Single Language",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "6001",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\lenovo\\Documents\\PowerShell\\Modules;C:\\Program Files\\PowerShell\\Modules;c:\\program files\\powershell\\7\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\PowerShell\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\lenovo\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\lenovo\\AppData\\Local\\Temp",
+    "URL": "http://localhost:8100",
+    "USERDOMAIN": "LAPTOP-2AJC8EIK",
+    "USERDOMAIN_ROAMINGPROFILE": "LAPTOP-2AJC8EIK",
+    "USERNAME": "lenovo",
+    "USERPROFILE": "C:\\Users\\lenovo",
+    "VBOX_HWVIRTEX_IGNORE_SVM_IN_USE": "1",
+    "VS160PROCOMNTOOLS": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\Tools\\",
+    "windir": "C:\\Windows",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.74.2",
+    "LANG": "en_US.UTF-8",
+    "COLORTERM": "truecolor",
+    "GIT_ASKPASS": "c:\\Users\\lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "--ms-enable-electron-run-as-node",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-e87441aca5-sock",
+    "VSCODE_INJECTION": "1"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\SYSTEM32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\bcryptprimitives.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll"
+  ]
+}
